@@ -1,5 +1,5 @@
 (config => {
-    if (!/https:\/\/github.com\/.*\/.*\/labels/.test(location.href)) {
+    if (!/^https:\/\/github.com\/.*\/.*\/labels/.test(location.href)) {
         throw new Error('the current page is not GitHub nor labels page. please go to github.com/yourusername/somerepository/labels and try again.');
     }
 
