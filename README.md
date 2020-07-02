@@ -5,4 +5,6 @@ A few useful helper scripts for GitHub users.
 * manage-issue-labels.js: bulk add and delete labels in issue trackers.
 
 ## License
-MIT
+Original author is Deneb (https://github.com/denebu)
+
+MIT License
